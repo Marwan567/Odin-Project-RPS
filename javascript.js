@@ -27,9 +27,9 @@ function playerSelection() {
 }
 
 function playRound(playerSelection, computerSelection) {
-    if (playerSelection == 'rock' && computerSelection == 'scissor' ||
+    if (playerSelection == 'rock' && computerSelection == 'scissors' ||
         playerSelection == 'paper' && computerSelection == 'rock' ||
-        playerSelection == 'scissor' && computerSelection == 'paper') {
+        playerSelection == 'scissors' && computerSelection == 'paper') {
         
         console.log('you choose ' + playerSelection + ' computer chose ' + computerSelection );
         return 'you win';
